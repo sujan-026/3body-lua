@@ -1,5 +1,5 @@
 function love.conf(t)
-    t.window.title = "Orbital Simulation - Year: 2025"  -- Set a descriptive window title
+    t.window.title = "3 Body Simulation"  -- Set a descriptive window title
     t.window.width = 1280                              -- Default width: increased from 800
     t.window.height = 720                              -- Default height: increased from 600
     t.window.resizable = true                          -- Enable window resizing
@@ -9,7 +9,7 @@ function love.conf(t)
     t.window.display = 1                               -- Use primary display
     
     -- Set app identity information
-    t.identity = "OrbitSimulation"                     -- Used for save directory
+    t.identity = "3 Body Simulation"                     -- Used for save directory
     
     -- Set other LÖVE configurations
     t.modules.audio = true
