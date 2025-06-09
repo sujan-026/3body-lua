@@ -544,7 +544,7 @@ function applySupernovaEffect(x, y, explosionEnergy, sourceBody)
             local dist = math.sqrt(dx*dx + dy*dy)
             if dist < disturbanceRadius then
                 local forceMagnitude = (explosionEnergy / 10) * (1 - dist/disturbanceRadius)
-                local angle = math.atan2(dy, dx)
+                local angle = math.atan(dy, dx)
                 body.vx = body.vx + math.cos(angle) * forceMagnitude / body.mass
                 body.vy = body.vy + math.sin(angle) * forceMagnitude / body.mass
             end
