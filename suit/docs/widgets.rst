@@ -65,7 +65,7 @@ is always computed from the ``normal`` image.
 
 .. note::
 
-  ``ImageButton`` does not recieve width and height parameters.  As such, it
+  ``ImageButton`` does not receive width and height parameters.  As such, it
   does not necessarily honor the cell size of a :doc:`layout`.
 
 .. note::
