@@ -12,7 +12,7 @@ Immutable Widgets
    :param string text: Button label.
    :param table options: Optional settings (see below).
    :param numbers x,y: Upper left corner of the widget.
-   :param numbers w,h: Width and height of the widget.o
+   :param numbers w,h: Width and height of the widget.
    :returns: Return state (see below).
 
 Creates a button widget at position ``(x,y)`` with width ``w`` and height
@@ -23,7 +23,7 @@ Creates a button widget at position ``(x,y)`` with width ``w`` and height
    :param string text: Label text.
    :param table options: Optional settings (see below).
    :param numbers x,y: Upper left corner of the widget.
-   :param numbers w,h: Width and height of the widget.o
+   :param numbers w,h: Width and height of the widget.
    :returns: Return state (see below).
 
 Creates a label at position ``(x,y)`` with width ``w`` and height ``h``.
@@ -86,7 +86,7 @@ Mutable Widgets
    :param table checkbox: Checkbox state.
    :param table options: Optional settings (see below).
    :param numbers x,y: Upper left corner of the widget.
-   :param numbers w,h: Width and height of the widget.o
+   :param numbers w,h: Width and height of the widget.
    :returns: Return state (see below).
 
 Creates a checkbox at position ``(x,y)`` with width ``w`` and height ``h``.
@@ -106,7 +106,7 @@ Creates a checkbox at position ``(x,y)`` with width ``w`` and height ``h``.
    :param table slider: Slider state.
    :param table options: Optional settings (see below).
    :param numbers x,y: Upper left corner of the widget.
-   :param numbers w,h: Width and height of the widget.o
+   :param numbers w,h: Width and height of the widget.
    :returns: Return state (see below).
 
 Creates a slider at position ``(x,y)`` with width ``w`` and height ``h``.
@@ -142,7 +142,7 @@ Sliders can be horizontal (default) or vertical.
    :param table input: Checkbox state
    :param table options: Optional settings (see below).
    :param numbers x,y: Upper left corner of the widget.
-   :param numbers w,h: Width and height of the widget.o
+   :param numbers w,h: Width and height of the widget.
    :returns: Return state (see below).
 
 Creates an input box at position ``(x,y)`` with width ``w`` and height ``h``.
